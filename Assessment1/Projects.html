@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="icon" type="image-icon" href="26.svg">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin-right: -220px;
+        }
+
+        h1 img {
+            max-width: 5%;
+            height: auto;
+            margin-right: 20px;
+            vertical-align: middle;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            /* Adjust as needed */
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+        }
+        .profile-picture {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        h3 {
+            color: aliceblue;
+        }
+
+        h5 {
+            color: aliceblue;
+        }
+
+        p {
+            font-size: 15px;
+        }
+        .sidebar a {
+            padding: 10px 20px;
+            display: block;
+            color: white;
+            text-decoration: none;
+            transition: font-size .4s;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+            font-size: 20px;
+        }
+
+        .content {
+            margin-left: 250px;
+            /* Same width as sidebar */
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin-left: 250px;
+        }
+
+        .box {
+            flex-basis: 30%;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            opacity: 90%;
+            border-style: dashed;
+        }
+
+        .footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin-left: -0.1%;
+        }
+
+        /* For responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidebar {
+                padding-top: 15px;
+            }
+
+            .sidebar a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="profile-picture">
+            <img src="25.jpg" alt="Profile Picture">
+            <h3>Welcome, John Jabez!</h3>
+            <h5>johnjabez.capistrano@cbsua.edu.ph</h5>
+        </div>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <div class="header">
+        <h1><img src="26.svg" alt="CIT-Rex">COLLEGE OF INFORMATION TECHNOLOGY - CBSUA SIPOCOT</h1>
+    </div>
+
+
+    <div class="container">
+        <div class="project">
+            <section id="project" class="box">
+                <h2>6/49 LOTTERY GENERATOR (GUI-based program with Database connection)</h2>
+                <p>This program first creates an ArrayList numbers containing numbers from 1 to 49.
+                    It then uses a loop to pick six distinct numbers by randomly selecting an index from the ArrayList,
+                    removing that element,
+                    and adding it to the lotteryCombination ArrayList.
+                    Finally, it sorts the lotteryCombination list and prints the result in any order.</p>
+                <a href="C:\Users\johnjabez26\OneDrive\Documents\Assessment1\LotteryDB">View Project</a>
+            </section>
+        </div>
+        <div class="project">
+            <section id="project" class="box">
+                <h2>A simple ATM Program with a Generated Receipt</h2>
+                <p>The program has its several options provided for the user: Withdraw, Deposit, Check Balance and Print
+                    Receipt.
+                </p>
+                <a href="C:\Users\johnjabez26\OneDrive\Documents\Assessment1\ATM Program">View Project</a>
+            </section>
+        </div>
+        <div class="project">
+            <section id="project" class="box">
+                <h2>Student Registration System</h2>
+                <p>This Java program allows users to register students, view registered students, and delete students by
+                    their index.
+                    It uses the Student and Course classes to represent student and course information, respectively.
+                </p>
+                <a href="C:\Users\johnjabez26\OneDrive\Documents\Assessment1\StudentRegister">View Project</a>
+            </section>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy 2024 COLLEGE OF INFORMATION TECHNOLOGY CBSUA-SIPOCOT. ALL RIGHTS RESERVED.</p>
+    </div>
+
+</body>
+
+</html>

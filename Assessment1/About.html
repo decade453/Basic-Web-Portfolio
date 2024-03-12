@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" type="image-icon" href="26.svg">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            margin-right: -220px;
+        }
+
+        h1 img {
+            max-width: 5%;
+            height: auto;
+            margin-right: 20px;
+            vertical-align: middle;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            /* Adjust as needed */
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+        }
+        .profile-picture {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        h3 {
+            color: aliceblue;
+        }
+
+        h5 {
+            color: aliceblue;
+        }
+
+        p {
+            font-size: 15px;
+        }
+        .sidebar a {
+            padding: 10px 20px;
+            display: block;
+            color: white;
+            text-decoration: none;
+            transition: font-size .4s;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+            font-size: 20px;
+        }
+
+        .content {
+            margin-left: 250px;
+            /* Same width as sidebar */
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .box {
+            flex-basis: 30%;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            opacity: 90%;
+            border-style: dashed;
+        }
+
+        .footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin-left: -17.3%;
+        }
+
+        /* For responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidebar {
+                padding-top: 15px;
+            }
+
+            .sidebar a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="profile-picture">
+            <img src="25.jpg" alt="Profile Picture">
+            <h3>Welcome, John Jabez!</h3>
+            <h5>johnjabez.capistrano@cbsua.edu.ph</h5>
+        </div>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <div class="header">
+        <h1><img src="26.svg" alt="CIT-Rex">COLLEGE OF INFORMATION TECHNOLOGY - CBSUA SIPOCOT</h1>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <section id="about" class="box">
+                <h2>YOUR CASUAL WEB DEVELOPER</h2>
+                <p>Full Name: John Jabez Capistrano</p>
+                <p>Year and Section: 2D</p>
+                <p>Address: San Bartolome St. Brgy. South Centro, Sipocot, Camarines Sur</p>
+                <p>Birthday: October 20, 2001</p>
+                <p>E-mail address: johnjabescapistrano@gmail.com</p>
+                <p>Hobbies:</p>
+                <ul>
+                    <li>Music Remix Production</li>
+                    <li>Web Development</li>
+                    <li>Graphics Design</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="contact" class="box">
+                <h4>Follow me on my official social media platforms</h4>
+                <a href="https://www.facebook.com/nhoj.sinuplado26"><img
+                        src="facebook-icon-social-platform-oneline-svgrepo-com.svg" width=80px height=60px></a>
+                <a href="https://youtube.com/@DJMikelOfficial"><img src="youtube-svgrepo-com.svg" width=80px
+                        height=60px></a>
+                <a href="https://www.tiktok.com/@djmikel_official"><img src="tiktok-svgrepo-com.svg" width=80px
+                        height=60px></a>
+            </section>
+        </div>
+
+        <div class="footer">
+            <p>&copy 2024 COLLEGE OF INFORMATION TECHNOLOGY CBSUA-SIPOCOT. ALL RIGHTS RESERVED.</p>
+        </div>
+</body>
+
+</html>
